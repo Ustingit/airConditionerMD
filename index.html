@@ -12,27 +12,20 @@
   <link href="css/mdb.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
 </head>
+
 <!-- TODO:
 1) можно фигануть фотку аппарата
 2) заменить реквизиты
 3) надо ли добавить надпись про "не является интернет магазином..."
 4) выполняем работы напрямую без посредников
 
-
-
-БМВ Х6 Е71 Как проходит заправка кондиционера
-Пока наш специалист подключает заправочную станцию OK Clima Clever, мы расскажем, как часто нужна заправка кондиционера. Если машина новая – заправка кондиционера проводится один раз в три года, если возраст авто более пяти лет, мы рекомендуем проводить заправку кондиционера каждые два года. К тому же, мы всегда советуем соблюдать простые инструкции по обслуживанию. Например, весной и осенью мыть радиатор кондиционера, зимой – два или три раза в месяц включать кондиционер на 15-20 минут.
-
-https://yadi.sk/i/mt3JHofS0fxdmw
-
 -->
-<!-- по поводу языка - если не нагуглишь вариантов, то можно просто создать две страницы, одну типо заканчивается на Ru вторая на En, и они тупо ссылаются друг на друга, думаю так сработает -->
-<body>
 
+<body>
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
       <div class="container">
-        <a href="#" class="navbar-brand">МОРОЗКО</a>
+        <a href="#" class="navbar-brand">ООО "КостинООО"</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse"
          data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle Navigation">
           <span class="navbar-toggler-icon">
@@ -46,13 +39,13 @@ https://yadi.sk/i/mt3JHofS0fxdmw
                 <a href="#intro" class="nav-link waves-effect waves-light">Главная</a>
               </li>
               <li class="nav-item">
-                <a href="#best-features" class="nav-link waves-effect waves-light">Акции</a>
+                <a href="#discounts" class="nav-link waves-effect waves-light">Акции</a>
               </li>
               <li class="nav-item">
-                <a href="#examples" class="nav-link waves-effect waves-light">Виды работ</a>
+                <a href="#examples" class="nav-link waves-effect waves-light">Примеры работ</a>
               </li>
               <li class="nav-item">
-                <a href="#gallery" class="nav-link waves-effect waves-light">Блог</a>
+                <a href="#plans" class="nav-link waves-effect waves-light">Достижения и планы</a>
               </li>
               <li class="nav-item">
                 <a href="#contact" class="nav-link waves-effect waves-light">Как доехать ?</a>
@@ -93,49 +86,32 @@ https://yadi.sk/i/mt3JHofS0fxdmw
         </div>
       </div>
     </div>
-
   </header>
 
-
-
+  <section id="discounts">
+      <h2 class="mb-5 font-weight-bold text-center">Текущие акции</h2>
+      <div class="row">
+        <!--  col-md-6  = 2 columns on the page -->
+        <div class="col-md-6">
+            <h4 class="mb-3">
+                <strong>Промокод "Весна2019"</strong>
+              </h4>
+              <img src="img/samples/15percents.png" alt="15 процентов скидки">
+              <p>При заказе услуги назовите промокод. При заказе ремонта любого элемента система кондиционирования и полной её заправки, вы получите скидку 15% на стоимость услуг по ремонту (полной заправкой считается заполнение системы кондиционирования объёмом хладагента, указанным в каталоге производителя вашего автомобиля).</p>
+        </div>
+        <div class="col-md-6">
+            <h4 class="mb-3">
+                <strong>Промокод "Соцсеть2019"</strong>
+              </h4>
+              <img src="img/samples/10percents.png" alt="10 процентов скидки для соцсетей">
+              <p>Вам необходимо указать ссылку на данную страницу в соцсетях (vkontakte, facebook, instagram) на аккаунте с не менее чем 100 контактами и страной проживания "Беларусь" (если такая указана). Данная ссылка должна быть в топе вашей ленты на момент обращения на СТО. Далее при заказе услуги назовите промокод и покажите аккаунт со ссылкой. Если условия выше соблюдены, то при заказе ремонта любого элемента система кондиционирования и полной её заправки, вы получите скидку 10% на стоимость услуг по ремонту (полной заправкой считается заполнение системы кондиционирования объёмом хладагента, указанным в каталоге производителя вашего автомобиля).</p>
+        </div>
+      </div>
+    </section>
+    <hr class="my-5">
 
   <main class="mt-5">
     <div class="container">
-      <section id="best-features" class="text-center">
-        <h2 class="mb-5 font-weight-bold">
-          Достижения и планы
-        </h2>
-        <!-- d-flex = for use flex elements,   justify-content-center  = fot cenring our elements -->
-        <div class="row d-flex justify-content-center mb-4">
-          <div class="col-md-8">
-            <p class="grey-text">
-              Мы гордимся тем, что наша компания не стоит на месте и всегда находится в процессе улучшения качества оказываемых услуг. Если у вас возникают любые предложения, пожалуйста, воспользуйтесь <a href="#contact">формой обратной связи</a> . Любые ваши предложения очень ценны для нас. Только так, мы можем организовать самый лучший сервис для вашего авто!
-            </p>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-4 mb-5">
-            <i class="fa fa-archive fa-4x grey-text"></i>
-            <!--  my-4 - it's margin for Y os - so margin-bottom: 4, margin-top: 4 -->
-            <h4 class="my-4 font-weight-bold">Опыт</h4>
-            <p class="grey-text">Наш коллектив состоит из опытных сотрудников, готовых даже к самым серьёзным вызовам.</p>
-          </div>
-          <div class="col-md-4 mb-5">
-            <i class="fa fa-award fa-4x grey-text"></i>
-            <h4 class="my-4 font-weight-bold">Акции</h4>
-            <p class="grey-text">Мы стараемся идти в ногу со временем и предоставляем нашим клиентам различные акции и маркетинговые компании.</p>
-          </div>
-          <div class="col-md-4 mb-5">
-            <i class="fa fa-arrow-up fa-4x grey-text"></i>
-            <h4 class="my-4 font-weight-bold">Планы</h4>
-            <p class="grey-text">В ближйшие месяцы мы планируем предоставлять услуги шиномонтажа.</p>
-          </div>
-        </div>
-
-      </section>
-      <hr class="my-5">
-
       <section id="examples" class="text-center">
           <h2 class="mb-5 font-weight-bold">Примеры выполненных работ</h2>
           <div class="row">
@@ -195,56 +171,41 @@ https://yadi.sk/i/mt3JHofS0fxdmw
       </section>
       <hr class="my-5">
 
-      <section id="gallery">
-        <h2 class="mb-5 font-weight-bold text-center">Gallery</h2>
-        <div class="row">
-          <!--  col-md-6  = 2 columns on the page -->
-          <div class="col-md-6 mb-4">
-              <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
-                <ol class="carousel-indicators">
-                  <li class="active" data-target="carousel-example-1z" data-slide-to="0"></li>
-                  <li class="" data-target="carousel-example-1z" data-slide-to="1"></li>
-                  <li class="" data-target="carousel-example-1z" data-slide-to="2"></li>
-                </ol>
-
-                <div class="carousel-inner z-deph-1-half" role="listbox">
-                    <div class="carousel-item active">
-                      <!-- display block and max width = 100%  -->
-                      <img src="http://mdbootstrap.com/img/Photos/Others/images/84.jpg" alt="" class="d-block w-100">
-                    </div>
-                    <div class="carousel-item">
-                        <!-- display block and max width = 100%  -->
-                        <img src="http://mdbootstrap.com/img/Photos/Others/images/85.jpg" alt="" class="d-block w-100">
-                      </div>
-                      <div class="carousel-item">
-                          <!-- display block and max width = 100%  -->
-                          <img src="http://mdbootstrap.com/img/Photos/Others/images/86.jpg" alt="" class="d-block w-100">
-                        </div>
-                </div>
-
-                <a href="#carousel-example-1z" data-slide="prev" role="button" class="carousel-control-prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                </a>
-                <a href="#carousel-example-1z" data-slide="next" role="button" class="carousel-control-next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  </a>
-              </div>
+      <section id="plans" class="text-center">
+          <h2 class="mb-5 font-weight-bold">
+            Достижения и планы
+          </h2>
+          <!-- d-flex = for use flex elements,   justify-content-center  = fot cenring our elements -->
+          <div class="row d-flex justify-content-center mb-4">
+            <div class="col-md-8">
+              <p class="grey-text">
+                Мы гордимся тем, что наша компания не стоит на месте и всегда находится в процессе улучшения качества оказываемых услуг. Если у вас возникают любые предложения, пожалуйста, воспользуйтесь <a href="#contact">формой обратной связи</a> . Любые ваши предложения очень ценны для нас. Только так, мы можем организовать самый лучший сервис для вашего авто!
+              </p>
+            </div>
           </div>
-
-          <div class="col-md-6">
-            <h4 class="mb-3">
-              <strong>Title</strong>
-            </h4>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi iure quia odio quaerat debitis laudantium quisquam nihil a.</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi iure quia odio quaerat debitis laudantium quisquam nihil a.</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi iure quia odio quaerat debitis laudantium quisquam nihil a.</p>
-            <p>by <a href="#"><strong>Yuryi Ustinovich</strong></a>, 07.11.2019</p>
-            <a href="#" class="btn btn-primary btn-md waves-effect waves-light">Read More</a>
+  
+          <div class="row">
+            <div class="col-md-4 mb-5">
+              <i class="fa fa-archive fa-4x grey-text"></i>
+              <!--  my-4 - it's margin for Y os - so margin-bottom: 4, margin-top: 4 -->
+              <h4 class="my-4 font-weight-bold">Опыт</h4>
+              <p class="grey-text">Наш коллектив состоит из опытных сотрудников, готовых даже к самым серьёзным вызовам.</p>
+            </div>
+            <div class="col-md-4 mb-5">
+              <i class="fa fa-award fa-4x grey-text"></i>
+              <h4 class="my-4 font-weight-bold">Акции</h4>
+              <p class="grey-text">Мы стараемся идти в ногу со временем и предоставляем нашим клиентам различные акции и маркетинговые компании.</p>
+            </div>
+            <div class="col-md-4 mb-5">
+              <i class="fa fa-arrow-up fa-4x grey-text"></i>
+              <h4 class="my-4 font-weight-bold">Планы</h4>
+              <p class="grey-text">В ближйшие месяцы мы планируем предоставлять услуги шиномонтажа.</p>
+            </div>
           </div>
-
-        </div>
-      </section>
-      <hr class="my-5">
+  
+        </section>
+        <hr class="my-5">
+  
 
       <section id="contact">
         <h2 class="mb-5 font-weight-bold text-center">
@@ -331,13 +292,6 @@ https://yadi.sk/i/mt3JHofS0fxdmw
           <p>Реквизиты: унп 123098512, р/с 13542351353465 ОАО БЕЛАГРОПРОМБАНК</p>
         </div>
 
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-              <h6 class="text-uppercase font-weight-bold"><strong>Полезные ссылки:</strong></h6>
-              <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width:60px">
-              <p><a href="#">Шиномонтаж</a></p>
-              <p><a href="#">Акции</a></p>
-              <p><a href="#">Партнёры</a></p>
-            </div>
                 <div class="col-md-3 col-lg-4 col-xl-3">
                   <h6 class="text-uppercase font-weight-bold"><strong>Контакты</strong></h6>
                   <hr class="deep-purple accent-2 mb-4 mb-4 mt-0 d-inline-block mx-auto" style="width:60px">
@@ -345,7 +299,25 @@ https://yadi.sk/i/mt3JHofS0fxdmw
                   <p><i class="fa fa-envelop mr-3"> ustinhtc@gmail.com</i></p>
                   <p><i class="fa fa-phone mr-3"><a href="tel:+375296581221"> +375296581221</a></i></p>
                 </div>
+
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="text-uppercase font-weight-bold"><strong>Полезные ссылки:</strong></h6>
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width:60px">
+                    <p><a href="#">Шиномонтаж</a></p>
+                    <p><a href="#">Акции</a></p>
+                    <p><a href="#">Партнёры</a></p>
+                  </div>
     </div>
+
+    <div class="container text-center justify-content-center">
+      <div class="row">
+        <div class="col-md-12 text-center">
+            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width:60px">
+          <p>by <a href="#"><strong>Yuryi Ustinovich</strong></a></p>
+        </div>
+      </div>
+    </div>
+
   </footer>
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/popper.min.js"></script>
